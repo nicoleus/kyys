@@ -17,9 +17,9 @@ os.system(['','color D'][os.name == 'nt'])
 print '''
                 SELAMAT DATANG
                      DI
-                ACEH CYBER TEAM
-           CODE: BY R15ky Ch4nn3L
-     FACEBOOK RECOVERY PASSWORD ATTACKER
+                SAMOSIR CYBER TEAM
+           CODE: BY Nicoleus F Sitorus
+     HORAS.. WAKTUNYA BATAK BERAKSI!!!!
   
  _____              _                 _
 |  ___|_ _  ___ ___| |__   ___   ___ | | __
