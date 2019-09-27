@@ -1,19 +1,37 @@
+# -*- coding: utf-8 -*-
+
+import os, sys, time, datetime, random, hashlib, re, threading, json, getpass, urllib, requests, mechanize
+from multiprocessing.pool import ThreadPool
+try:
+    import mechanize
+except ImportError:
+    os.system('pip2 install mechanize')
+else:
+    try:
+        import requests
+    except ImportError:
+        os.system('pip2 install requests')
+
+from requests.exceptions import ConnectionError
+from mechanize import Browser
+reload(sys)
+sys.setdefaultencoding('utf8')
+br = mechanize.Browser()
+br.set_handle_robots(False)
+br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time=1)
+br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/36.2.2254/119.132; U; id) Presto/2.12.423 Version/12.16')]
 
 
-import urllib2 ,sys ,re
-import os
-import ssl
-import time
+def keluar():
+    print '\x1b[1;91m[!] Tutup'
+    os.sys.exit()
 
-def cls():
-    linux = 'clear'
-    windows = 'cls'
-    os.system([linux,windows][os.name == 'nt'])
 
-cls()
-
-os.system(['','color D'][os.name == 'nt'])
-
+def jalan(z):
+    for e in z + '\n':
+        sys.stdout.write(e)
+        sys.stdout.flush()
+        time.sleep(0.01)
 print '''
                 SELAMAT DATANG
                      DI
@@ -27,7 +45,6 @@ print '''
 |  _| (_| | (_|  __/ |_) | (_) | (_) |   <
 |_|  \__,_|\___\___|_.__/ \___/ \___/|_|\_\                                '''
 if len(sys.argv) != 3:
-
 
  def tik():
       titik = [
