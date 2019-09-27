@@ -49,6 +49,7 @@ if len(sys.argv) != 3:
  def tik():
       titik = [
      '.   ', '..  ', '... ']
+
         print '\r\x1b[1;91m[\xe2\x97\x8f] \x1b[1;92mLoading Ya Lae \x1b[1;97m' + o,
         sys.stdout.flush()
         time.sleep(0.01)
