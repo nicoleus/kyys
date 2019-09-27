@@ -29,8 +29,8 @@ print '''
 if len(sys.argv) != 3:
 
 
-    def tik():
-    titik = [
+ def tik():
+      titik = [
      '.   ', '..  ', '... ']
     for o in titik:
         print '\r\x1b[1;91m[\xe2\x97\x8f] \x1b[1;92mLoading Ya Lae \x1b[1;97m' + o,
