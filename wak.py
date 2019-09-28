@@ -4,7 +4,7 @@ from multiprocessing.pool import ThreadPool
 try:
     import mechanize
 except ImportError:
-    os.system('pip2 install mechanize')
+       os.system('pip2 install mechanize')
 else:
     try:
         import requests
