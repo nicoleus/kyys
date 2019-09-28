@@ -1,10 +1,5 @@
 # -*- coding: utf-8 -*-
 
-from multiprocessing.pool import ThreadPool
-    import mechanize
-else:
-        import requests
-
 from requests.exceptions import ConnectionError
 from mechanize import Browser
 reload(sys)
